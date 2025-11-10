@@ -15,7 +15,7 @@ let sumEl = document.getElementById("sum-el")
 let cardEl = document.getElementById("card-el")
 let playerEl = document.getElementById("player-el")
 
-playerEl.textContent = Player.name + "  $" + Player.chips
+playerEl.textContent = Player.name + " -  $" + Player.chips
 
 
 function getRandomCard() {
